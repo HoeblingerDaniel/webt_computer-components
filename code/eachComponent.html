@@ -1,50 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Each Component in Detail</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/lux/bootstrap.min.css"
+        integrity="sha384-9+PGKSqjRdkeAU7Eu4nkJU8RFaH8ace8HGXnkiKMP9I9Te0GJ4/km3L1Z8tXigpG" crossorigin="anonymous">
 </head>
+
 <body>
-    <div class="sidebar"></div>
-    <div id="main">
-        <h1 >Each Component In Detail</h1>
-        <div class="container2">
-            <img src="../../Images/CPU2.png" alt="CPU2" class="mostimportantimg">
-            <h3>CPU:</h3>
-            <p>
-                Gets the commands from the RAM and decodes it with the control unit.
-                The CPU also has a ALU and with it you can calculate things.
-                The smallest storage in a computer is the Cache. It is located in the CPU and is really small.
-                There are 3 types of the caches the L1, L2 and L3 cache. They first cache is the smallest but the fastest and so on.
-                The CPUs nowadays have more than only one core. So they can do more than one task at once.
-            </p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="./mostImportatComp.html">Most important components</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">What each component does</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./brands.html">Differences between the main component brands</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./useCases.html">Use cases</a>
+                </li>
+            </ul>
         </div>
-        <div class="container2">
-            <img src="../../Images/mainboard.png" alt="Motherboard2" class="mostimportantimg">
-            <h3>Motherboard:</h3>
-            <p>
-                The motherboard has the printed circuit board on it.
-                It is a multi-layer board. And on each layer it has it´s traces.
-                And the traces are for the communication of all components.
-                The mainboard also controls the Bios/UEFI. The Bios/UEFI is important for starting the Computer.
-                It loads your config every start.
-                The difference between the Bios and the UEFI is, that the UEFI has a graphic interface and the BIOS not.
-            </p>
+    </nav>
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3 text-center">Each Component In Detail</h1>
         </div>
-        <div class="container2">
-            <img src="../../Images/ram2.png" alt="ram2" class="mostimportantimg">
-            <h3>RAM:</h3>
-            <p>
-                As we mentioned before the RAM is a really fast storage.
-                It is 250 times quicker than a normal HDD.
-                The RAM is called random-access memory. It is called random because wherever you want to get the address it will always last the same.
-                On the HDD it won´t last the same time. In the RAM are the commands for the CPU.
-                You can´t save your files on the RAM or something. This is why there is the HDD or the SSD.
-            </p>
+        <div class="container card border-primary rounded" style="margin-bottom: 10px;">
+            <div class="card-header">CPU</div>
+            <div class="card-body">
+                <img src="../../Images/CPU2.png" alt="CPU2" style="width: 12vh;">
+                <p class="card-text">Gets the commands from the RAM and decodes it with the control unit.
+                    The CPU also has a ALU and with it you can calculate things.
+                    The smallest storage in a computer is the Cache. It is located in the CPU and is really small.
+                    There are 3 types of the caches the L1, L2 and L3 cache. They first cache is the smallest but the
+                    fastest and so on.
+                    The CPUs nowadays have more than only one core. So they can do more than one task at once.</p>
+            </div>
         </div>
-        <div class="back"><a href="../index.html">Back to the main page</a></div>
+        <div class="container card border-primary rounded" style="margin-bottom: 10px;">
+            <div class="card-header">Motherboard</div>
+            <div class="card-body">
+                <img src="../../Images/mainboard.png" alt="Motherboard2" style="width: 12vh;">
+                <p class="card-text">The motherboard has the printed circuit board on it.
+                    It is a multi-layer board. And on each layer it has it´s traces.
+                    And the traces are for the communication of all components.
+                    The mainboard also controls the Bios/UEFI. The Bios/UEFI is important for starting the Computer.
+                    It loads your config every start.
+                    The difference between the Bios and the UEFI is, that the UEFI has a graphic interface and the BIOS not.</p>
+            </div>
+        </div>
+        <div class="container card border-primary rounded" style="margin-bottom: 10px;">
+            <div class="card-header">RAM</div>
+            <div class="card-body">
+                <img src="../../Images/ram2.png" alt="ram2" style="width: 12vh;">
+                <p class="card-text">As we mentioned before the RAM is a really fast storage.
+                    It is 250 times quicker than a normal HDD.
+                    The RAM is called random-access memory. It is called random because wherever you want to get the address
+                    it will always last the same.
+                    On the HDD it won´t last the same time. In the RAM are the commands for the CPU.
+                    You can´t save your files on the RAM or something. This is why there is the HDD or the SSD.</p>
+            </div>
+        </div>
     </div>
-    <div class="sidebar"></div>
+    <div class="card-footer">
+        <p>By Höblinger Daniel & Fritz Schernhammer</p>
+      </div>
 </body>
+
 </html>
